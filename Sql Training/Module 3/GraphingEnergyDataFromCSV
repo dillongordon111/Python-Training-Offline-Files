@@ -1,7 +1,0 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-df = pd.read_csv(r'C:\Users\DillonGordon\OneDrive - db Engineering\Desktop\SQLTraining\Module 3\Energy US-MTV-STLN2025.csv')
-print(df.columns)
-df.plot(x='Min Elapsed', y='Net kW/h', kind='line')
-plt.show()
-
